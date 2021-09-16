@@ -1,7 +1,11 @@
-import {plugin} from 'postcss';
-
 import process from './lib/process';
 
-export default plugin('postcss-conditionals', () => {
-    return process;
-});
+module.exports = () => {
+    return {
+        postcssPlugin: 'postcss-conditionals',
+        Once (root) {
+            process(root);
+        }
+    }
+}
+module.exports.postcss = true
