@@ -1,5 +1,5 @@
 {
-  "name": "postcss-conditionals",
+  "name": "postcss-conditionals-p8",
   "version": "3.0.0",
   "description": "PostCSS plugin that enables @if statements in your CSS",
   "keywords": [
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andyjansson/postcss-conditionals.git"
+    "url": "https://github.com/sveak/postcss-conditionals-p8.git"
   },
   "dependencies": {
     "css-color-converter": "^1.0.2",
